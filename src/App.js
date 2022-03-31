@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { Counter } from './features/counter/Counter';
+import { ProductList } from './features/Product/productList';
 
 function App() {
   return (
     <div className='App'>
       react redux tool kit
-      <Counter />
+      <ProductList />
     </div>
   );
 }
